@@ -9,7 +9,7 @@ try:
         host="localhost",
         database="postgres",
         user="postgres",
-        password="admin")
+        password="******")
 
     excelData = pandas.read_excel(fileDir,
                                   sheet_name=0)
